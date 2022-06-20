@@ -18,8 +18,8 @@ try:
 
     username.clear()
     password.clear()
-    username.send_keys("classieguy")
-    password.send_keys("tjrwls97$")
+    username.send_keys("id")
+    password.send_keys("password")
 
     login = driver.find_element_by_css_selector("button[type='submit']").click()
 
